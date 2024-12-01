@@ -6,7 +6,8 @@ module.exports = function(api) {
             jsxImportSource: "nativewind"
         }], "nativewind/babel"],
 
-        plugins: [["module-resolver", {
+        plugins: [
+            ["module-resolver", {
             root: ["./"],
 
             alias: {

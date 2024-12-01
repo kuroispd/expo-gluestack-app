@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Text, View } from "react-native";
-import { Box } from "@/components/ui/box";
-import { Button, ButtonText, ButtonSpinner, ButtonGroup, ButtonIcon } from "@/components/ui/button";
-import { AddIcon, CloseCircleIcon } from "@/components/ui/icon";
+import { Box } from "@components/ui/box";
+import { Button, ButtonText, ButtonSpinner, ButtonGroup, ButtonIcon } from "@components/ui/button";
+import { AddIcon, CloseCircleIcon } from "@components/ui/icon";
 import { StyleSheet } from "react-native";
-import colors, { blue, gray } from "tailwindcss/colors";
+import colors from "tailwindcss/colors";
 
 export default function Index() {
   const [isPressed, setIsPressed] = useState(false);
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   button : {
+    //
   },
   text: {
     fontSize: 24,
