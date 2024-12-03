@@ -1,8 +1,6 @@
 import { Stack } from "expo-router";
-
-import "@/global.css";
-import { GluestackUIProvider } from "@components/ui/gluestack-ui-provider";
+import '@/global.css'; // It causes error in the browser, works fine in the emulator
 
 export default function RootLayout() {
-  return <GluestackUIProvider mode="light"><Stack /></GluestackUIProvider>;
+  return <Stack />;
 }
