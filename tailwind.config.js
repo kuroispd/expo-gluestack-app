@@ -2,8 +2,8 @@
  * <= Node.js v20.18.1 : use require
  * >= Node.js v22.11.0 : use import
  */
-const gluestackPlugin = require('@gluestack-ui/nativewind-utils/tailwind-plugin');
-// import gluestackPlugin from '@gluestack-ui/nativewind-utils/tailwind-plugin';
+// const gluestackPlugin = require('@gluestack-ui/nativewind-utils/tailwind-plugin');
+import gluestackPlugin from '@gluestack-ui/nativewind-utils/tailwind-plugin';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
